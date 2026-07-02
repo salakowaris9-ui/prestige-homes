@@ -382,3 +382,11 @@ margin-bottom:35px;
 line-height:1.8;
 color:#ddd;
 }
+
+.btn:hover{
+
+.btn:hover{
+background:#f4cf63;
+transform:translateY(-3px);
+transition:.3s;
+}
