@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prestige Homes | Luxury Real Estate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Homes | Luxury Real Estate</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<script src="https://kit.fontawesome.com/6b5d3b2d6d.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/6b5d3b2d6d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,18 +25,12 @@
 Prestige<span>Homes</span>
 </div>
 
-<ul>
-
+<ul class="nav-links">
 <li><a href="#">Home</a></li>
-
-<li><a href="#">Properties</a></li>
-
-<li><a href="#">Agents</a></li>
-
-<li><a href="#">About</a></li>
-
-<li><a href="#">Contact</a></li>
-
+<li><a href="#properties">Properties</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#agents">Agents</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
 
 <a href="#" class="btn">Book Viewing</a>
@@ -48,62 +41,50 @@ Prestige<span>Homes</span>
 
 <section class="hero">
 
-<div class="overlay">
-
-<section class="hero">
-
 <div class="hero-content">
 
 <div class="hero-text">
-<span class="tag">✨ Luxury Real Estate</span>
 
-<h1>Luxury Living Starts Here</h1>
-
-<p>
-Discover exceptional homes in Miami's most prestigious neighborhoods.
-From waterfront villas to modern penthouses, we help you find your dream home.
-</p>
-
-<div class="hero-buttons">
-<a href="#" class="btn">Explore Properties</a>
-<a href="#" class="btn-outline">Contact Agent</a>
-</div>
-</div>
-
-<div class="hero-image">
-<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200"
-alt="Luxury Home">
-</div>
-
-</div>
-
-</section>
+<span class="tag">
+Luxury Real Estate
+</span>
 
 <h1>
-Luxury Living Starts Here
+Find the World's Most Exclusive Luxury Homes
 </h1>
 
 <p>
-
-Discover world-class homes in Miami's most exclusive neighborhoods.
-
+From breathtaking waterfront villas to modern penthouses, Prestige Homes connects buyers with exceptional properties in Miami's most prestigious neighborhoods.
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
+<a href="#properties" class="btn">Explore Properties</a>
+<a href="#contact" class="btn-outline">Contact Agent</a>
+</div>
 
-<a href="#" class="btn">
+<div class="hero-badges">
 
-Explore Properties
+<div>
+⭐ 4.9 Client Rating
+</div>
 
-</a>
+<div>
+🏡 500+ Homes Sold
+</div>
 
-<a href="#" class="btn-outline">
-
-Contact Agent
-
-</a>
+<div>
+🌍 International Buyers
+</div>
 
 </div>
+
+</div>
+
+<div class="hero-image">
+
+<img
+src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+alt="Luxury House">
 
 </div>
 
@@ -115,53 +96,49 @@ Contact Agent
 
 <div class="search-card">
 
-<input type="text" placeholder="City">
+<input type="text" placeholder="Location">
 
 <input type="text" placeholder="Property Type">
 
 <input type="text" placeholder="Budget">
 
 <button>
-
 Search
-
 </button>
 
 </div>
 
 </section>
 
-<section class="featured">
+<section id="properties" class="featured">
 
 <div class="title">
 
 <h2>
-
 Featured Properties
-
 </h2>
 
 <p>
-
 Hand-picked luxury homes for elite buyers.
-
 </p>
 
 </div>
 
-<div class="cards">
-
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900" alt="House">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900" alt="Ocean View Villa">
 
 <div class="info">
 
 <h3>Ocean View Villa</h3>
 
-<p>Miami Beach, Florida</p>
+<p>📍 Miami Beach, Florida</p>
+
+<p>🛏️ 5 Bedrooms • 🛁 6 Bathrooms • 🚗 3 Garages</p>
 
 <h4>$3,450,000</h4>
+
+<a href="#" class="btn">View Property</a>
 
 </div>
 
@@ -169,15 +146,19 @@ Hand-picked luxury homes for elite buyers.
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900" alt="House">
+<img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900" alt="Modern Luxury Home">
 
 <div class="info">
 
 <h3>Modern Luxury Home</h3>
 
-<p>Downtown Miami</p>
+<p>📍 Downtown Miami</p>
+
+<p>🛏️ 4 Bedrooms • 🛁 5 Bathrooms • 🚗 2 Garages</p>
 
 <h4>$2,100,000</h4>
+
+<a href="#" class="btn">View Property</a>
 
 </div>
 
@@ -185,15 +166,19 @@ Hand-picked luxury homes for elite buyers.
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=900" alt="House">
+<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=900" alt="Smart Family Villa">
 
 <div class="info">
 
 <h3>Smart Family Villa</h3>
 
-<p>Brickell, Miami</p>
+<p>📍 Brickell, Miami</p>
+
+<p>🛏️ 6 Bedrooms • 🛁 7 Bathrooms • 🚗 4 Garages</p>
 
 <h4>$4,800,000</h4>
+
+<a href="#" class="btn">View Property</a>
 
 </div>
 
@@ -203,82 +188,67 @@ Hand-picked luxury homes for elite buyers.
 
 </section>
 
-<script src="script.js"></script>
+<section id="about" class="about">
 
-</body>
+<div class="about-image">
 
-</html>
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80" alt="Luxury Home">
 
-<section class="about">
+</div>
 
 <div class="about-text">
 
 <h2>About Prestige Homes</h2>
 
 <p>
-
-Prestige Homes is a luxury real estate company based in Miami, Florida. We specialize in premium residential properties, waterfront villas, and modern penthouses for clients seeking exceptional living experiences.
-
+Prestige Homes is a luxury real estate company specializing in premium residences, waterfront villas, and modern penthouses in Miami.
 </p>
 
 <p>
-
-With over 15 years of experience, our expert team has helped hundreds of families and investors discover their dream homes in the most desirable neighborhoods.
-
+For over 15 years, we've helped families and investors find exceptional homes with world-class service and expert guidance.
 </p>
 
-<a href="#" class="btn">
-Learn More
-</a>
-
-</div>
-
-<div class="about-image">
-
-<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80">
-
-</div>
-
-</section>
-<section class="why-us">
-
-<div class="title">
-<h2>Why Choose Prestige Homes</h2>
-<p>Experience excellence in every property transaction.</p>
-</div>
-
-<div class="features">
-
-<div class="feature">
-<h3>🏡 Premium Properties</h3>
-<p>Exclusive villas, penthouses and luxury homes in the best locations.</p>
-</div>
-
-<div class="feature">
-<h3>🤝 Trusted Experts</h3>
-<p>Professional agents with years of experience helping buyers worldwide.</p>
-</div>
-
-<div class="feature">
-<h3>💎 Luxury Lifestyle</h3>
-<p>We don't just sell homes—we help clients discover exceptional living.</p>
-</div>
+<a href="#" class="btn">Learn More</a>
 
 </div>
 
 </section>
 
-<section class="featured">
+<section class="stats">
+
+<div class="stat-box">
+<h2>500+</h2>
+<p>Luxury Homes Sold</p>
+</div>
+
+<div class="stat-box">
+<h2>1200+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat-box">
+<h2>15+</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat-box">
+<h2>25+</h2>
+<p>Expert Agents</p>
+</div>
+
+</section>
+
+<section id="agents" class="featured">
 
 <div class="title">
 <h2>Meet Our Agents</h2>
-<p>Dedicated professionals ready to help you find your dream home.</p>
+<p>Professional advisors ready to help you find your dream home.</p>
 </div>
 
 <div class="cards">
 
 <div class="card">
-<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Wilson">
 <div class="info">
 <h3>James Wilson</h3>
 <p>Senior Property Consultant</p>
@@ -286,7 +256,7 @@ Learn More
 </div>
 
 <div class="card">
-<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophia Carter">
 <div class="info">
 <h3>Sophia Carter</h3>
 <p>Luxury Home Specialist</p>
@@ -294,7 +264,7 @@ Learn More
 </div>
 
 <div class="card">
-<img src="https://randomuser.me/api/portraits/men/76.jpg">
+<img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Michael Brown">
 <div class="info">
 <h3>Michael Brown</h3>
 <p>Investment Advisor</p>
@@ -320,7 +290,7 @@ Learn More
 </div>
 
 <div class="testimonial">
-<p>"Professional service, luxury properties, and excellent communication. Highly recommended!"</p>
+<p>"Professional service, luxury properties and excellent communication. Highly recommended!"</p>
 <h4>— Daniel Roberts</h4>
 </div>
 
@@ -333,177 +303,70 @@ Learn More
 
 </section>
 
-<section class="contact">
+<section class="cta">
+
+<h2>Ready to Find Your Dream Home?</h2>
+
+<p>
+Speak with one of our luxury property specialists today and schedule a private viewing.
+</p>
+
+<a href="#" class="btn">Schedule Viewing</a>
+
+</section>
+
+<section id="contact" class="contact">
 
 <div class="title">
 <h2>Contact Us</h2>
-<p>Ready to find your dream home? Let's talk.</p>
+<p>Let's help you find your perfect luxury property.</p>
 </div>
 
 <div class="contact-box">
 
-<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Full Name">
 
 <input type="email" placeholder="Email Address">
 
-<textarea placeholder="Tell us about your dream property"></textarea>
+<textarea placeholder="Tell us about your dream home"></textarea>
 
-<button class="btn">Send Message</button>
+<button class="btn">
+Send Message
+</button>
 
 </div>
 
 </section>
-
-<script src="script.js"></script>
 
 <footer>
 
 <h2>Prestige Homes</h2>
 
-<p>
-Luxury Real Estate | Miami, Florida, USA
-</p>
+<p>Luxury Real Estate | Miami, Florida, USA</p>
 
-<p>
-© 2026 Prestige Homes. All Rights Reserved.
-</p>
+<p>© 2026 Prestige Homes. All Rights Reserved.</p>
 
-<p style="margin-top:10px;color:#D4AF37;">
+<p class="credit">
 Designed & Developed by <strong>Mr. Waris Digital Studio</strong>
 </p>
 
 </footer>
 
-<section class="stats">
-
-    <div class="stat-box">
-        <h2>500+</h2>
-        <p>Luxury Properties Sold</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>1,200+</h2>
-        <p>Happy Clients</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>15+</h2>
-        <p>Years of Experience</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>25+</h2>
-        <p>Expert Agents</p>
-    </div>
-
-</section>
-
-<section class="cta">
-
-<h2>Ready To Find Your Dream Home?</h2>
-
-<p>
-
-Our luxury real estate experts are ready to help you discover the perfect property in Miami.
-
-</p>
-
-<a href="#" class="btn">
-
-Schedule A Viewing
-
-</a>
-
-</section>
-
-<section class="stats">
-
-<div class="stat-box">
-<h2 class="counter" data-target="500">0</h2>
-<p>Luxury Properties Sold</p>
-</div>
-
-<div class="stat-box">
-<h2 class="counter" data-target="1200">0</h2>
-<p>Happy Clients</p>
-</div>
-
-<div class="stat-box">
-<h2 class="counter" data-target="15">0</h2>
-<p>Years Experience</p>
-</div>
-
-<div class="stat-box">
-<h2 class="counter" data-target="25">0</h2>
-<p>Expert Agents</p>
-</div>
-
-</section>
-
-<section class="featured">
-
-<div class="title">
-
-<h2>Luxury Gallery</h2>
-
-<p>Explore some of our finest properties.</p>
-
-</div>
-
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?w=900">
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=900">
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900">
-</div>
-
-</div>
-
-</section>
-
 <a href="https://wa.me/13055550147"
-   class="whatsapp"
-   target="_blank"
-   aria-label="Chat on WhatsApp">
-    💬
+class="whatsapp"
+target="_blank">
+
+💬
+
 </a>
 
-<button id="topBtn">⬆</button>
+<button id="topBtn">
 
-<h1>
-Find the World's Most Exclusive Luxury Homes
-</h1>
+⬆
 
-<p>
-From breathtaking waterfront villas to modern penthouses, Prestige Homes connects you with extraordinary properties in Miami's most prestigious neighborhoods.
-</p>
+</button>
 
-<div class="buttons">
-<a href="#" class="btn">Explore Properties</a>
-<a href="#" class="btn-outline">Book a Private Tour</a>
-</div>
+<script src="script.js"></script>
 
-<div class="hero-badges">
-<div>⭐ 4.9 Client Rating</div>
-<div>🏡 500+ Luxury Homes Sold</div>
-<div>🌍 Trusted by International Buyers</div>
-</div>
-
-<h3>Ocean View Villa</h3>
-
-<p>📍 Miami Beach, Florida</p>
-
-<p>🛏️ 5 Bedrooms • 🛁 6 Bathrooms • 🚗 3 Garages</p>
-
-<h4>$3,450,000</h4>
-
-<a href="#" class="btn">View Property</a>
-
-<hr class="luxury-line">
+</body>
+</html>
