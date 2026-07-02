@@ -1,5 +1,3 @@
-# prestige-homes
-Luxury real estate website
 <!DOCTYPE html>
 <html lang="en">
 <head>
