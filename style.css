@@ -184,37 +184,40 @@ color:#D4AF37;
 font-size:24px;
 }
 
-@media(max-width:900px){
-
-.navbar{
-flex-direction:column;
-gap:20px;
-position:relative;
-background:#08131f;
-}
-
-.navbar ul{
-flex-direction:column;
-text-align:center;
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(rgba(8,19,31,.65),rgba(8,19,31,.75)),
+    url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 .hero-content{
-padding:40px;
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding:0 8%;
 }
 
-.hero-content h1{
-font-size:42px;
+.hero-text{
+    max-width:650px;
 }
 
-.search-card{
-flex-direction:column;
-width:90%;
+.hero h1{
+    font-size:72px;
+    line-height:1.1;
+    margin-bottom:25px;
 }
 
-.search-card input{
-width:100%;
-}
-
+.hero p{
+    font-size:22px;
+    color:#eee;
+    line-height:1.8;
+    margin-bottom:40px;
 }
 
 .about{
