@@ -61,3 +61,20 @@ counter.innerText=target+"+";
 update();
 
 });
+
+window.addEventListener("scroll", function () {
+  const nav = document.querySelector(".navbar");
+
+  if (window.scrollY > 80) {
+    nav.style.position = "fixed";
+    nav.style.top = "0";
+    nav.style.left = "0";
+    nav.style.background = "#08131f";
+    nav.style.width = "100%";
+    nav.style.boxShadow = "0 10px 25px rgba(0,0,0,.25)";
+  } else {
+    nav.style.position = "absolute";
+    nav.style.background = "transparent";
+    nav.style.boxShadow = "none";
+  }
+});
