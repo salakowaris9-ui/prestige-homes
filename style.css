@@ -428,3 +428,28 @@ font-size:20px;
 cursor:pointer;
 z-index:999;
 }
+
+.hero-badges{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.hero-badges div{
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(12px);
+padding:14px 22px;
+border-radius:40px;
+font-size:14px;
+border:1px solid rgba(255,255,255,.2);
+}
+
+.luxury-line{
+width:120px;
+height:3px;
+background:#D4AF37;
+border:none;
+margin:70px auto;
+border-radius:10px;
+}
