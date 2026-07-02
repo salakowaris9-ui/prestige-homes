@@ -363,3 +363,22 @@ footer p{
 color:#bbb;
 margin:10px 0;
 }
+
+.cta{
+padding:100px 8%;
+text-align:center;
+background:linear-gradient(135deg,#102132,#08131f);
+}
+
+.cta h2{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.cta p{
+max-width:700px;
+margin:auto;
+margin-bottom:35px;
+line-height:1.8;
+color:#ddd;
+}
